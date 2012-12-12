@@ -1,0 +1,31 @@
+{
+    "name": "members",
+    "description": "Membership module for credential storage and validation",
+    "version": "0.0.1",
+    "author": "Wyatt Preul <wpreul@gmail.com>",
+    "repository": "git://github.com/wpreul/members",
+    "main": "index",
+    "keywords": [
+        "membership",
+        "credentials",
+        "users",
+        "mongodb"
+    ],
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "dependencies": {
+        "mongodb": "1.x.x"
+    },
+    "devDependencies": {
+        "mocha": "1.x.x",
+        "chai": "1.2.x"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://github.com/wpreul/members/raw/master/LICENSE"
+    }]
+}
